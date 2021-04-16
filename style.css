@@ -636,4 +636,21 @@ html {
   font-weight: 300;
   letter-spacing: 0.1rem;
 }
+
+.contact-form textarea {
+  max-width: 100%;
+  max-height: 15rem;
+  min-height: 5.5rem;
+}
+
+.contact-form input[type='submit'] {
+  background-color: #7a1010;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form input[type='submit']:hover {
+  background-color: #5f0303;
+}
 /* end of section 4 */
