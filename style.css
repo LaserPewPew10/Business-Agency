@@ -477,4 +477,31 @@ html {
   color: #fff;
 }
 
+.list-free li {
+  color: #0da5d3;
+}
+
+.list-basic li {
+  color: #bdba0e;
+}
+
+.list-standard li {
+  color: #e23b3b;
+}
+
+.list-premium li {
+  color: #3be286;
+}
+
+.pricing-card-list i {
+  font-size: 1.8rem;
+  width: 3rem;
+}
+
+.pricing-card-list span {
+  font-size: 1.8rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+}
+
 /* end of section 3 */
