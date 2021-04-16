@@ -17,13 +17,20 @@ const playPause = () => {
   if (video.paused) {
     video.play();
     btn.className = 'far fa-pause-circle';
+    video.style.opacity = '.7';
   } else {
     video.pause();
     btn.className = 'far fa-play-circle';
+    video.style.opacity = '.3';
   }
 };
 
 btn.addEventListener('click', () => {
   playPause();
+});
+
+video.addEventListener('timeupdate', () => {
+  const barWidth = video.currentTime / video.duration;
+  bar.style.width = `${barWidth * 100}%`;
 });
 //end of section 2 video
